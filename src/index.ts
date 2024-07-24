@@ -33,7 +33,7 @@ app.use(cors(corsOptions));
 
 app.options('*', cors(corsOptions));
 
-app.use(authenticationMiddleware)
+// app.use(authenticationMiddleware)
 
 console.log(TOKEN_SAMPLE)
 
